@@ -25,6 +25,7 @@
 - Unity
 
 ### 버전 정보
+
 - Unity2020.3.14f1
 
 ### 외부 라이브러리의 사용
@@ -36,7 +37,3 @@
 .gitignore
 
 - Git 관련 환경변수 파일
-
-### 참고 문헌
-
-- 움직이는 증강 현실 게임 개발(Augmented Reality Game Development)
