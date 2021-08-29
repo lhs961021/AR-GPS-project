@@ -1,0 +1,1276 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ko' Physical Memory: 7926 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/unityproject/ARGPS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55752
+Successfully changed project path to: C:/unityproject/ARGPS
+C:/unityproject/ARGPS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unityproject/ARGPS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   
+    VRAM:     3963 MB
+    Driver:   27.20.100.9510
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005451 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.743 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2744ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1107ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010742 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2488ms)
+		BeginReloadAssembly (402ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1917ms)
+			LoadAssemblies (276ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (639ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (709ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2245.
+Total: 3.497700 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.215800 ms MarkObjects: 2.748700 ms  DeleteObjects: 0.279200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.026558 seconds 
+  Import took 0.034284 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  2.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2035ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1646ms)
+			LoadAssemblies (232ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (536ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (649ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (491ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 3.323400 ms (FindLiveObjects: 0.361400 ms CreateObjectMapping: 0.092800 ms MarkObjects: 2.679100 ms  DeleteObjects: 0.189100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.646065 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e4ac41312ac99c646701f1a5aaae4a') in 0.252399 seconds 
+  Import took 0.261041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ad96cf6b00ae08ddd2aa98cde878e8') in 0.105652 seconds 
+  Import took 0.115480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.401981 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c205faf15eec87eb34903609a4306298') in 0.070202 seconds 
+  Import took 0.082049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.640781 seconds.
+  path: Assets/PrefabDb.asset
+  artifactKey: Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabDb.asset using Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8779eeb7fa5ce8318f8b31d38f26369') in 0.066095 seconds 
+  Import took 0.080149 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2053ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1678ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (567ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2410.
+Total: 4.626300 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.101400 ms MarkObjects: 4.105200 ms  DeleteObjects: 0.175700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009085 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2230ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1842ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (637ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (482ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 3.166300 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.751300 ms  DeleteObjects: 0.094700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.1 MB.
+System memory in use after: 47.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2415.
+Total: 5.181400 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.105500 ms MarkObjects: 4.639200 ms  DeleteObjects: 0.170200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2287ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1920ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (712ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (533ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2418.
+Total: 3.539200 ms (FindLiveObjects: 0.243100 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.965600 ms  DeleteObjects: 0.226600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 853.001921 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd1e7b6dda660c0d68748f782575f0b') in 0.149508 seconds 
+  Import took 0.157910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2de060360aa0ae406dd50fd7cd523eb') in 0.105803 seconds 
+  Import took 0.116650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.215769 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92f39ce9979868192302fca139f68fc') in 0.037797 seconds 
+  Import took 0.049493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a12dae88f1e751a1f69a4257447d6d6') in 0.057909 seconds 
+  Import took 0.068320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.886137 seconds.
+  path: Assets/PrefabDb.asset
+  artifactKey: Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabDb.asset using Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c1e2468977ee2c08d73f7a4b42f909') in 0.015415 seconds 
+  Import took 0.032223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010494 seconds.
+  path: Assets/PrefabDb.asset
+  artifactKey: Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabDb.asset using Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c1e2468977ee2c08d73f7a4b42f909') in 0.021140 seconds 
+  Import took 0.033026 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.9 MB.
+System memory in use after: 48.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 4.982500 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.096400 ms MarkObjects: 4.446400 ms  DeleteObjects: 0.185200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.8 MB.
+System memory in use after: 47.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 4.492200 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.098600 ms MarkObjects: 4.007600 ms  DeleteObjects: 0.139600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185.729197 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202806fbc44ac281457c355eefef0421') in 0.036111 seconds 
+  Import took 0.044109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001238 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42727cd8c2a4d75d7e0c1c1112d623ee') in 0.066559 seconds 
+  Import took 0.078582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202806fbc44ac281457c355eefef0421') in 0.029397 seconds 
+  Import took 0.039966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001998 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42727cd8c2a4d75d7e0c1c1112d623ee') in 0.061450 seconds 
+  Import took 0.073230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790928 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7770274b21451bcdaa790717b987ea79') in 0.033680 seconds 
+  Import took 0.048884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed8e0213cbf8c561a940cf2b2b651fc') in 0.066717 seconds 
+  Import took 0.077398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7770274b21451bcdaa790717b987ea79') in 0.037909 seconds 
+  Import took 0.047641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.515024 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3651e38a6c69e3b4ba6f6868aa18150') in 0.044249 seconds 
+  Import took 0.053866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a674cbfd6f5c37659cd856d95f45f1') in 0.054389 seconds 
+  Import took 0.064293 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.9 MB.
+System memory in use after: 48.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 6.550400 ms (FindLiveObjects: 0.441600 ms CreateObjectMapping: 0.147500 ms MarkObjects: 5.818400 ms  DeleteObjects: 0.139800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 111.475471 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8665dd86f90606418966682c389a8eb4') in 0.034209 seconds 
+  Import took 0.044238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40ef6785f6d0727c00f021547b9aa11') in 0.069086 seconds 
+  Import took 0.077888 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.0 MB.
+System memory in use after: 48.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 4.509500 ms (FindLiveObjects: 0.337600 ms CreateObjectMapping: 0.119300 ms MarkObjects: 3.862900 ms  DeleteObjects: 0.188100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ARLocation]: Starting up!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
+
+[ARLocation]: Resource folder already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
+
+[ARLocation]: Config already exists!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.118 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1740ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (580ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (619ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2423.
+Total: 4.905000 ms (FindLiveObjects: 0.404700 ms CreateObjectMapping: 0.204800 ms MarkObjects: 4.099400 ms  DeleteObjects: 0.193400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.2 MB.
+System memory in use after: 47.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 2.927700 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.096000 ms MarkObjects: 2.479400 ms  DeleteObjects: 0.068500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 934.359614 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker.prefab
+  artifactKey: Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker.prefab using Guid(9e06d88deefb82f46838d380e5f43a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c5930340b1603301719764f47fb08c') in 0.187076 seconds 
+  Import took 0.209244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesScene.prefab
+  artifactKey: Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesScene.prefab using Guid(bdd05d55de1100242b17aee047eef501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a8e514e8ad38b57ca2288f81f8ae90') in 0.125819 seconds 
+  Import took 0.135256 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.9 MB.
+System memory in use after: 48.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 4.505000 ms (FindLiveObjects: 0.473400 ms CreateObjectMapping: 0.175600 ms MarkObjects: 3.731300 ms  DeleteObjects: 0.121700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154.429356 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ed0bce9de866f40e4766d3d26be2d7') in 0.060787 seconds 
+  Import took 0.079392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.511186 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56e046b3fcb04668f1583e135288ded') in 0.065474 seconds 
+  Import took 0.076553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.938643 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67673c5effe6d157736a8ef2d1c96cf6') in 0.080239 seconds 
+  Import took 0.097940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.985073 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb6d45ade3316262920d58dc0cfe7de') in 0.065176 seconds 
+  Import took 0.077028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.034849 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eb6c32f334340534968ccb9f57ac3a') in 0.076679 seconds 
+  Import took 0.088086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561117 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c416bc9debf09e5dc9fec64ca6813aa') in 0.071679 seconds 
+  Import took 0.094845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.565463 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5be88a3d73202f69d777f4677bfdfdb') in 0.064598 seconds 
+  Import took 0.082392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.225723 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a456bb9ad85028184126aa97503c54') in 0.063263 seconds 
+  Import took 0.081399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.910136 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13693763e0f420fc4bc54599086ad950') in 0.062714 seconds 
+  Import took 0.073677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.364443 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427f03c848bee67b577b7138e774e2f7') in 0.056386 seconds 
+  Import took 0.064273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.478597 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf78ab4d92604b24bc05bfd59afa193') in 0.029407 seconds 
+  Import took 0.051638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.533767 seconds.
+  path: Assets/PrefabDb.asset
+  artifactKey: Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabDb.asset using Guid(3a9645c491d93b643a57cb115070ff61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e6f8f2240fc0351bc1f0b89ecd662f') in 0.034664 seconds 
+  Import took 0.054600 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.0 MB.
+System memory in use after: 48.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 4.849200 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.117300 ms MarkObjects: 4.243300 ms  DeleteObjects: 0.142100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 224.282550 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f49687b154f58bed082f3a45a7f5088') in 0.057303 seconds 
+  Import took 0.068481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.363830 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6a39c0411d3fb470db9e5396fc2225') in 0.034639 seconds 
+  Import took 0.045678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.508243 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4d164780578b03861c6de1ae8e2152') in 0.033801 seconds 
+  Import took 0.045849 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.0 MB.
+System memory in use after: 48.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 4.900500 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.130300 ms MarkObjects: 4.342800 ms  DeleteObjects: 0.125400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.939241 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf7e5ac92b9421109e4ca0edca84051') in 0.060556 seconds 
+  Import took 0.078059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.413399 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9bced65506b804bf373346627e315b') in 0.054313 seconds 
+  Import took 0.065019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.466191 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4584e589f14b830560b9b1acd8ada7e2') in 0.050171 seconds 
+  Import took 0.062642 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.0 MB.
+System memory in use after: 48.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 6.770400 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.295700 ms MarkObjects: 5.866300 ms  DeleteObjects: 0.129700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202.260606 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f498b6aa7cec0619e34f20d7de3d1f') in 0.377122 seconds 
+  Import took 0.387247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.165426 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08618059ca1f9977ac69fca8587c75db') in 0.070185 seconds 
+  Import took 0.084586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.867385 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee52fbfd1ad09c3675f224e2d32efd4f') in 0.070634 seconds 
+  Import took 0.086879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 884.243220 seconds.
+  path: Assets/FireWing/Material/Dust_Cross.mat
+  artifactKey: Guid(11415854e60d9ff47b2672e71f553c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireWing/Material/Dust_Cross.mat using Guid(11415854e60d9ff47b2672e71f553c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5ae8bc7783e154bc910b412f8644f0') in 0.180999 seconds 
+  Import took 0.191255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/FireWing/Material/Wing_Sub.mat
+  artifactKey: Guid(3f7413b1e47450240ae79ceffc22cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireWing/Material/Wing_Sub.mat using Guid(3f7413b1e47450240ae79ceffc22cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d51e795c1d5a2d755ec029bb928c26') in 0.410006 seconds 
+  Import took 0.418147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/FireWing/Material/Wing_Main.mat
+  artifactKey: Guid(894d3c820f73165418af9a04fcf380c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireWing/Material/Wing_Main.mat using Guid(894d3c820f73165418af9a04fcf380c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3820b2952811a9aa2f06e50ddcf1a1') in 0.170077 seconds 
+  Import took 0.177986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/FireWing/Material/FireCircle.mat
+  artifactKey: Guid(392af32d15c178f43afa49793eb37677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireWing/Material/FireCircle.mat using Guid(392af32d15c178f43afa49793eb37677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdb9f666b8f8e3097643121af78bb90') in 0.075795 seconds 
+  Import took 0.084758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/FireWing/Material/Dust_Dots.mat
+  artifactKey: Guid(ec3d87f6018186245a48bd82391500cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireWing/Material/Dust_Dots.mat using Guid(ec3d87f6018186245a48bd82391500cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de700201a1197b94ece1d424d598045') in 0.061372 seconds 
+  Import took 0.074058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.037698 seconds.
+  path: Assets/FireWing/Preafbs/FireWing.prefab
+  artifactKey: Guid(7d53b2a40ca830044a27aba623ee0c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireWing/Preafbs/FireWing.prefab using Guid(7d53b2a40ca830044a27aba623ee0c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b935390c4c9173d30297709f9c4bf4b') in 0.183053 seconds 
+  Import took 0.192606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.596229 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(91c3669c7a6e2b54fa88263fd47a6005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(91c3669c7a6e2b54fa88263fd47a6005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58286dbe60c5c3ad3d4a20e60cfd1d60') in 0.358561 seconds 
+  Import took 0.365917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.729235 seconds.
+  path: Assets/FoodyGo/Prefabs/PlacesMarker2.prefab
+  artifactKey: Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodyGo/Prefabs/PlacesMarker2.prefab using Guid(cf806f3ea50c55744bc2d2a9228e9146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82565f0532cdc070b85a5d34e51d8411') in 0.176763 seconds 
+  Import took 0.188189 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.4 MB.
+System memory in use after: 52.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2468.
+Total: 5.934200 ms (FindLiveObjects: 0.278400 ms CreateObjectMapping: 0.141000 ms MarkObjects: 5.385800 ms  DeleteObjects: 0.126800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
