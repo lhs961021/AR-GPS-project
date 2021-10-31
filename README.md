@@ -37,5 +37,5 @@
 .gitignore
 - Git 관련 환경변수 파일
 
-## 프로젝트 소개 파일
+### 프로젝트 소개 파일
 [프로젝트 소개 파일 바로가기](https://drive.google.com/drive/folders/1QHdEqfTIXqZDt-TNg_m9qSWtqOZPF4p2?usp=sharing)
